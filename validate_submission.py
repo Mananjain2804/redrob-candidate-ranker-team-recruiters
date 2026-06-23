@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# validate_submission.py - CSV Format and Rule Validator
+# Version tracked in git repository.
 """
 Validate submission CSV per challenge rules (sections 2–3).
 Row 1 = header. Rows 2–101 = exactly 100 data rows. CSV only.

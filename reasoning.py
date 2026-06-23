@@ -1,3 +1,5 @@
+# reasoning.py - Factual Reasoning Sentence Generator
+# Version tracked in git repository.
 import hashlib
 import random
 

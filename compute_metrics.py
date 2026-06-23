@@ -1,3 +1,5 @@
+# compute_metrics.py - Verification metrics helper script (Pearson/Spearman check)
+# Version tracked in git repository.
 import csv
 import math
 

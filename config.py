@@ -1,3 +1,5 @@
+# config.py - Configuration constants and patterns for candidate ranking.
+# Managed in git repository: team_recruiters candidate discovery.
 import re
 
 # 1. Strict Pure Services Penalty List (Lowercase for matching)

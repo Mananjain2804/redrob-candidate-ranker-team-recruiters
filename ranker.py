@@ -1,3 +1,5 @@
+# ranker.py - Layer 2 Scoring & Penalties Engine
+# Version tracked in git repository.
 """
 Layer 2 — Weighted Scoring & Multiplicative Penalties
 =====================================================

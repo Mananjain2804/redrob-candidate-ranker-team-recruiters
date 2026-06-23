@@ -1,3 +1,5 @@
+# feature_engineering.py - Layer 1 Feature Extraction
+# Version tracked in git repository.
 """
 Layer 1 — Feature Extraction
 =============================

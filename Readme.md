@@ -1,4 +1,4 @@
-# Redrob Hackathon – Intelligent Candidate Discovery & Ranking Challenge
+# 🚀 Redrob Hackathon – Intelligent Candidate Discovery & Ranking Challenge
 
 This repository contains our submission for the Redrob hackathon. Our ranking system selects the top 100 candidates for the given job description using a **tiered scoring architecture** that combines structured feature extraction with multiplicative dealbreaker penalties — designed to closely mirror human recruiter judgment.
 

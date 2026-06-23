@@ -85,7 +85,7 @@ def main():
         writer.writeheader()
         writer.writerows(results)
 
-    print("🎉 Submission generated successfully!")
+    print("Submission generated successfully!")
     print(f"   - Total rows: {len(results)}")
     print(f"   - Top score: {results[0]['score']}")
     print(f"   - {args.top_n}th score: {results[-1]['score']}")

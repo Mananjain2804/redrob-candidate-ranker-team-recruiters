@@ -22,7 +22,7 @@ dependencies.
 | `validate_submission.py` | Official format validator (provided in the challenge bundle). |
 | `submission_metadata.yaml` | Submission metadata mirroring the upload-portal form. |
 | `Redrob_Ranker_Sandbox.ipynb` | Google Colab sandbox notebook (small-sample demo). |
-| `Team_recruiters_submission.csv` | Final generated submission (top 100). |
+| `Team_recruiters.csv` | Final generated submission (top 100). |
 | `.gitignore` | Excludes large data files, caches, and temp outputs. |
 | `data1/candidates.zip` | Compressed candidate dataset (~54 MB, 100K candidates) — read natively by the pipeline. |
 | `data1/sample_candidates.json` | 50-candidate sample for quick testing / sandbox. |
@@ -52,20 +52,20 @@ Place the dataset under `data1/` (the loader reads `.jsonl`, `.jsonl.gz`, or a
 ## How to Run
 
 The pipeline defaults to reading `data1/candidates.zip` and writing
-`Team_recruiters_submission.csv`, so the simplest reproduce command is:
+`Team_recruiters.csv`, so the simplest reproduce command is:
 
 ```bash
 # Reproduce the submission (reads data1/candidates.zip by default)
 python main.py
 
 # Validate the output
-python validate_submission.py Team_recruiters_submission.csv
+python validate_submission.py Team_recruiters.csv
 ```
 
 Equivalent explicit form (same result):
 
 ```bash
-python main.py --candidates data1/candidates.zip --out Team_recruiters_submission.csv --top_n 100
+python main.py --candidates data1/candidates.zip --out Team_recruiters.csv --top_n 100
 ```
 
 Quick test on the bundled 50-candidate sample:
@@ -85,7 +85,7 @@ A hosted **Google Colab notebook** (`Redrob_Ranker_Sandbox.ipynb`) runs the full
 pipeline end-to-end on the official 50-candidate sample and produces a ranked CSV
 within the compute budget.
 
-**Live link:** https://colab.research.google.com/drive/1DSHvUYkH8Z6mOMNdXmfb17l2o9HBzCDz?usp=sharing
+**Live link:** https://colab.research.google.com/drive/1DipjNP7NGY8z50tRuyOfa67DsCMiQ7kQ?usp=sharing
 
 To run it: open the link → upload `sample_candidates.json` via the Files panel →
 **Runtime → Run all**. The pipeline source is written out via `%%writefile`

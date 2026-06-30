@@ -29,9 +29,9 @@ team_members:
 # Code and reproducibility
 # ============================================================================
 github_repo: "https://github.com/Mananjain2804/redrob-candidate-ranker-team-recruiters"
-sandbox_link: "https://colab.research.google.com/drive/1DSHvUYkH8Z6mOMNdXmfb17l2o9HBzCDz?usp=sharing"
+sandbox_link: "https://colab.research.google.com/drive/1DipjNP7NGY8z50tRuyOfa67DsCMiQ7kQ?usp=sharing"
 
-reproduce_command: "python main.py --candidates data1/candidates.zip --out Team_recruiters_submission.csv --top_n 100"
+reproduce_command: "python main.py --candidates data1/candidates.zip --out Team_recruiters.csv --top_n 100"
 
 # ============================================================================
 # Compute environment

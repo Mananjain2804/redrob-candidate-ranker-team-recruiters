@@ -29,7 +29,7 @@ def load_candidates(filepath):
 def main():
     parser = argparse.ArgumentParser(description="Redrob AI Recruiter Ranker — V3")
     parser.add_argument("--candidates", default="data1/candidates.zip")
-    parser.add_argument("--out", default="Team_recruiters_submission.csv")
+    parser.add_argument("--out", default="Team_recruiters.csv")
     parser.add_argument("--top_n", type=int, default=100)
     args = parser.parse_args()
 
